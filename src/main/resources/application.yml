@@ -31,4 +31,4 @@ management:
         include: '*'
       base-path: /management
   server:
-    port: 8191
+    port: 8888

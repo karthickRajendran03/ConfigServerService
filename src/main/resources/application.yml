@@ -2,7 +2,7 @@ spring:
   application:
     name: ConfigServer
   profiles:
-    active: local
+    active: dev
   cloud:
     config:
       server:        

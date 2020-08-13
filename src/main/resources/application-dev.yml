@@ -2,9 +2,9 @@ server:
   port: 8888
 eureka:
   instance:
-    hostname: localhost    
+    hostname: https://servicediscovery-dev-karthick3.sandbox-ocp43-one-176292-be5b1ee812fa4041cc73b6bbf969fc88-0000.eu-gb.containers.appdomain.cloud    
   client:
     register-with-eureka: true
     fetch-registry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
+      defaultZone: http://${eureka.instance.hostname}/eureka/

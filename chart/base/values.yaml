@@ -9,7 +9,11 @@ logLevel: "debug"
 image:
   repository: replace
   tag: replace
+<<<<<<< HEAD
   pullPolicy: IfNotPresent
+=======
+  pullPolicy: Always
+>>>>>>> 67be0e54191af959c20800fff9c71fa7d86d15d3
   port: 8888
 
 nameOverride: ""

@@ -8,7 +8,7 @@ spring:
       server:
         git:
           default-label: master
-          uri: https://github.com/CloudHunters/configserver
+          uri: https://github.com/CloudHunters/ExternalConfig
           search-paths: '{application}'
           clone-on-start: false
           timeout: 6000

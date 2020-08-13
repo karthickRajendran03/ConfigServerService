@@ -15,12 +15,7 @@ spring:
           strict-host-key-checking: false
           skip-ssl-validation: true
           ignore-local-ssh-settings: true
-  security:
-    user:
-      roles:
-        - ADMIN
-      name: root
-      password: s3cr3t
+
 logging:
   level:
     root: info
